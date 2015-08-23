@@ -46,12 +46,12 @@
 					<li><a  class="active" href="contact.html">CONTACT US</a></li>
 				</ul>
 				 <script>
-			                                                      $( "span.menu").click(function() {
-			                                                                                        $(  "ul.res" ).slideToggle("slow", function() {
-			                                                                                         // Animation complete.
-			                                                                                         });
-			                                                                                         });
-		                                                     </script>
+			        $( "span.menu").click(function() {
+			        $(  "ul.res" ).slideToggle("slow", function() {
+			         // Animation complete.
+			        });
+			     });
+		         </script>
 			</div>
 		<div class="clearfix"> </div>
 		</div>
@@ -72,20 +72,20 @@
 				</div>
 			</div>
 			<!--contact end here-->
+			<!--form-->
+			<form role="form" action="contact.php" method="post">
 			  <div class="col-md-6 get-left">
 			  	 <p>Name</p>
-			  	 <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
+			  	 <input type="text" class="form-control" name="name" placeholder="Enter name">
 			  	 <p>Email</p>
-			  	 <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
+			  	 <input type="text" class="form-control" name="email" placeholder="Enter email">
 			  	 <p>Telephone</p>
-			  	 <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
-			  	 <p>Website</p>
-			  	 <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
+			  	 <input type="text" class="form-control" name="telephone" placeholder="Enter phone number">
 			  	 <input type="submit" value="Send">
 			  </div>
 			  <div class="col-md-6 get-right">
 			  	<h4>Message</h4>
-			  	<textarea   onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/> </textarea>
+			  	<textarea class="form-control" name="message" placeholder="Enter message"></textarea>
 			  	<h3>Contact</h3>
 				  <p>e-mail: drsallybahgat@hotmail.com</p>
 				  <p>phone : +201222370122</p>
@@ -118,7 +118,7 @@
 				<div class="col-md-4 footer-left">
 					<h3>FOLLOW US</h3>
 				<ul>
-					<li><a href="#"><span class="a"> </span></a></li>
+					<li><a href="https://www.facebook.com/OasisCommunityCenter?fref=ts&__mref=message_bubble"><span class="a"> </span></a></li>
 				</ul>
 				</div>
 				<div class="col-md-4 footer-middle">
