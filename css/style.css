@@ -64,13 +64,16 @@ span.menu {
 .banner-main h1{
 	font-size: 3em;
 	font-weight: 700;
-	color: #2F5315;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 0 0 10px #2F5315;
 }
 .banner-main p{
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #173962;
 	font-family: 'Roboto Slab', serif;
+	color: white;
+	text-shadow: 0 0 10px #2F5315;
 }
 .fa a{
 	margin-left: 14px;
@@ -1942,10 +1945,6 @@ small {
 .about-left ul.anc-left li a {
 	font-size: 12px;
 }
-span.m {
-	background: url(../images/b.png)no-repeat 2.5em 1em;
-	background-size: 50%;
-}
 .about-right h3 {
 	font-size: 1.1em;
 }
@@ -2312,7 +2311,7 @@ span.menu {
 }
 .about-right h3 {
 	font-size: 15px;
-	margin-top: 10px;
+	margin-top: 100px;
 }
 .about-left ul.anc-left li a {
 	font-size: 12px;
