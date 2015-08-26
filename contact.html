@@ -84,16 +84,16 @@
 			<form role="form" action="contact.php" method="post">
 			  <div class="col-md-6 get-left">
 			  	 <p>Name</p>
-			  	 <input type="text" class="form-control" name="name" placeholder="Enter name">
+			  	 <input type="text" class="form-control-group" name="name" placeholder="Enter name">
 			  	 <p>Email</p>
-			  	 <input type="text" class="form-control" name="email" placeholder="Enter email">
+			  	 <input type="text" class="form-control-group" name="email" placeholder="Enter email">
 			  	 <p>Telephone (optional)</p>
-			  	 <input type="text" class="form-control" name="telephone" placeholder="Enter phone number">
+			  	 <input type="text" class="form-control-group" name="telephone" placeholder="Enter phone number">
 			  	 <input type="submit" value="Send">
 			  </div>
 			  <div class="col-md-6 get-right">
 			  	<h4>Message</h4>
-			  	<textarea class="form-control" name="message" placeholder="Enter message"></textarea>
+			  	<textarea class="form-control-group" name="message" placeholder="Enter message"></textarea>
 			  	<h3>Contact</h3>
 				  <p>e-mail: oasiscommunityegypt@gmail.com</p>
 				  <p>address: 6 October, Wahat road</p>
@@ -107,6 +107,15 @@
 		 	<div class="clearfix"> </div>	
 		</div>
 	</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/script.js"></script>
+<script>
+	addEventListener('load', prettyPrint, false);
+	$(document).ready(function(){
+		$('pre').addClass('prettyprint linenums');
+	});
+</script>
 <!--get touch end here-->
 <!--footer start here-->
 <div class="footer">

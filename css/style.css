@@ -2121,6 +2121,19 @@ span.menu {
 	background-size: 40%;
 	min-height: 170px
 }
+.valid {
+	width: 24px;
+	height: 24px;
+	background: url(../images/valid.png) center center no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	margin-top: 2px;
+}
 .info {
 	margin: 6.5em 0em 0px 3em;
 }
