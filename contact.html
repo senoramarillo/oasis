@@ -4,6 +4,7 @@
 <title>OASIS Community Center - OCC</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/styleForm.css" rel="stylesheet">
 <!--web-fonts-->
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <!--js-->
@@ -81,15 +82,17 @@
 			</div>
 		</div>
 			<!--form-->
-			<form role="form" action="contact.php" method="post">
+			<form id="form" role="form" action="contact.php" method="post">
 			  <div class="col-md-6 get-left">
+				  <div class="controls">
 			  	 <p>Name</p>
-			  	 <input type="text" class="form-control-group" name="name" placeholder="Enter name">
+			  	 <input type="text" class="form-control" name="name" id="name" placeholder="Enter name">
 			  	 <p>Email</p>
-			  	 <input type="text" class="form-control-group" name="email" placeholder="Enter email">
+			  	 <input type="text" class="form-control" name="email" placeholder="Enter email">
 			  	 <p>Telephone (optional)</p>
-			  	 <input type="text" class="form-control-group" name="telephone" placeholder="Enter phone number">
+			  	 <input type="text" class="form-control" name="telephone" placeholder="Enter phone number">
 			  	 <input type="submit" value="Send">
+				  </div>
 			  </div>
 			  <div class="col-md-6 get-right">
 			  	<h4>Message</h4>

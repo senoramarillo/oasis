@@ -1,0 +1,23 @@
+/*
+------------
+Visit twitterbootstrap.org for more tut 
+-------------
+*/
+
+@import url('assets/css/bootstrap.min.css');
+@import url('assets/css/bootstrap-responsive.min.css');
+/* New styles */
+
+label.valid {
+	width: 8px;
+	height: 8px;
+	background: url(images/valid.png) center no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+}
+label.error {
+	font-weight: bold;
+	color: red;
+	font-size: 12px;
+	margin-top: 0em;
+}
