@@ -20,7 +20,7 @@ $(document).ready(function(){
 		  
 	     
 		   message: {
-	      	minlength: 10,
+	      	minlength: 50,
 	        required: true
 	      },
 		  
